@@ -1,0 +1,53 @@
+/*
+ * Base structure
+ */
+
+html {
+  background: #c0392b url("../img/background.svg") 50% 0 no-repeat;
+  background-attachment: fixed;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+.section-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; 
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.section-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.inner {
+  padding: 30px;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+
+  .section-wrapper-inner {
+    vertical-align: middle;
+  }
+}
