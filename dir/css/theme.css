@@ -6,7 +6,7 @@ html,
 body {
   height: 100%;
   background: #c0392b url("../img/background.svg") 50% 0 no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
 body {
   color: #fff;
