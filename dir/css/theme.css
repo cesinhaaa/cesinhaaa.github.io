@@ -1,3 +1,5 @@
+body {background:#222;}
+
 .loading {
   background: url('../img/ico_loading.gif') no-repeat center center;
 }
@@ -39,15 +41,17 @@ main {
   position: relative;
 }
 
-/* Slide 1 */
-#slide-1 .bcg {background: #c0392b url("../img/background.svg") 50% 0 no-repeat;}
+/* Slides */
 
 #slide-1 h1, #slide-1 h2 {margin:0;}
 
 #slide-1, #slide-2 {color:#fff;}
 
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+
 /* Slide 2 */
-#slide-2 .bcg {background: url("../img/blue-pattern.jpg") repeat;}
+#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
