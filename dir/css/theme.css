@@ -58,13 +58,13 @@ main {
 .hsContainer .brand {margin:auto;margin-top:-40px;margin-bottom:-40px;}
 
 /* Slide 1 */
-#slide-1 .bcg {background: #c0392b url("../img/background.svg")}
+#slide-1 .bcg {background: #f0ad4e url("../img/background.svg")}
 
 /* Slide 2 */
-#slide-2 .bcg {background: #2b32c0 url('../img/background.svg')}
+#slide-2 .bcg {background: #5cb85c url('../img/background.svg')}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background: #5bc0de url('../img/background.svg')}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background: #337ab7 url('../img/background.svg')}
