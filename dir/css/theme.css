@@ -55,7 +55,7 @@ main {
 
 #slide-1, #slide-2 {color:#fff;}
 
-.hsContainer .img-responsive {margin:auto;}
+.hsContainer .brand {margin:auto;margin-top:-40px;margin-bottom:-40px;}
 
 /* Slide 1 */
 #slide-1 .bcg {background: #c0392b url("../img/background.svg")}
