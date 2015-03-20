@@ -47,5 +47,6 @@ body {
 #welcome .img-responsive {margin:auto;}
 
 #services {
-  background-color :#e74c3c;
+  background: #e74c3c url("../img/background.svg") 50% 0 no-repeat;
+  background-attachment: fixed;
 }
