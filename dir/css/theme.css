@@ -13,9 +13,6 @@ section {
   -moz-transition: opacity 300ms ease-out;
   transition: opacity 300ms ease-out;
 }
-main {
-  overflow-x: hidden;
-}
 #preload {
   width: 1px;
   height: 1px;
