@@ -4,7 +4,6 @@ body {background:#222;}
   background: url('../img/ico_loading.gif') no-repeat center center;
 }
 section {
-  min-width: 960px;
   opacity: 0;
 }
 .loaded section,
@@ -45,12 +44,14 @@ main {
 
 #slide-1 h1, #slide-1 h2 {margin:0;}
 
+#slide-1 h1 {font-size: 64px;}
+
 #slide-1, #slide-2 {color:#fff;}
 
 .hsContainer .image-responsive {margin:auto;}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-1 .bcg {background: #c0392b url("../img/background.svg")}
 
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
