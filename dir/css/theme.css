@@ -40,14 +40,14 @@ main {
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background: #c0392b url("../img/background.svg") 50% 0 no-repeat;background-attachment: fixed;}
+#slide-1 .bcg {background: #c0392b url("../img/background.svg") 50% 0 no-repeat;}
 
 #slide-1 h1, #slide-1 h2 {margin:0;}
 
-#slide-1 {color:#fff;}
+#slide-1, #slide-2 {color:#fff;}
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+#slide-2 .bcg {background: #c0392b url("../img/blue-pattern.jpg") 50% 0 repeat;}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
