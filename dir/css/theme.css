@@ -2,13 +2,11 @@
  * Base structure
  */
 
-html {
-  background: #c0392b url("../img/background.svg") 50% 0 no-repeat;
-  background-attachment: fixed;
-}
 html,
 body {
   height: 100%;
+  background: url("../img/background.svg") 50% 0 no-repeat;
+  background-attachment: fixed;
 }
 body {
   color: #fff;
@@ -26,7 +24,7 @@ body {
 }
 .section-wrapper-inner {
   display: table-cell;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .inner {
@@ -41,13 +39,14 @@ body {
   padding: 0 20px;
 }
 
-/*
- * Affix and center
+/* 
+ * Sections 
  */
 
-@media (min-width: 768px) {
+ #welcome {
+  background-color: #c0392b;
+}
 
-  .section-wrapper-inner {
-    vertical-align: middle;
-  }
+#services {
+  background-color :#e74c3c;
 }
