@@ -40,7 +40,7 @@ main {
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/background.svg')}
+#slide-1 .bcg {background: #c0392b url("../img/background.svg") 50% 0 no-repeat;background-attachment: fixed;}
 
 /* Slide 2 */
 #slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
