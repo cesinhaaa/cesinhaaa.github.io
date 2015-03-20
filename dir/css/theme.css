@@ -47,7 +47,7 @@ main {
 #slide-1, #slide-2 {color:#fff;}
 
 /* Slide 2 */
-#slide-2 .bcg {background: #c0392b url("../img/blue-pattern.jpg") 50% 0 repeat;}
+#slide-2 .bcg {background: url("../img/blue-pattern.jpg") repeat;}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
