@@ -61,7 +61,7 @@ main {
 #slide-1 .bcg {background: #c0392b url("../img/background.svg")}
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+#slide-2 .bcg {background: #2b32c0 url('../img/background.svg')}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
